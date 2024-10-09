@@ -40,8 +40,8 @@ Second:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Bolazcoding/social-links-profile)
-- Live Site URL: [Live site URL](https://bolazcoding.github.io/social-links-profile/)
+- Solution URL: [Solution URL](https://github.com/Bolazcoding/recipe-page)
+- Live Site URL: [Live site URL](https://bolazcoding.github.io/recipe-page/)
 
 ## My process
 
