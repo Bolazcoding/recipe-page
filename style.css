@@ -92,6 +92,7 @@ strong {
 .preparation-header {
   color: hsl(332, 51%, 32%);
   font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .time-list {
@@ -150,7 +151,7 @@ td {
 
 .row2 {
   font-size: 1.25rem;
-  color: hsl(332, 51%, 32%);
+  color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
 
