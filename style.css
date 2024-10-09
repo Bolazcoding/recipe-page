@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .color {
+  color: hsl(0, 0%, 100%);
+
+  color: hsl(30, 54%, 90%);
+  color: hsl(30, 18%, 87%);
+  color: hsl(30, 10%, 34%);
+  color: hsl(24, 5%, 18%);
+  color: hsl(14, 45%, 36%);
+
+  color: hsl(332, 51%, 32%);
+  color: hsl(330, 100%, 98%);
+} */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Young Serif", serif;
+  background-color: hsl(30, 54%, 90%);
+}
+
+/* Reusable styles */
+.general-header {
+  font-size: 2.2rem;
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.list {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.text {
+  color: hsl(30, 10%, 34%);
+}
+
+strong {
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 60rem;
+  margin: 10rem auto;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.section-content {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.content-header {
+  font-size: 3rem;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  line-height: 1.7;
+  margin-top: 2rem;
+}
+
+.content-text {
+  color: hsl(30, 10%, 34%);
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.preparation {
+  margin-top: 2.2rem;
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.preparation-header {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.6rem;
+}
+
+.time-list {
+  color: hsl(332, 51%, 32%);
+  margin-left: 2rem;
+}
+
+.ingredients {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ingredients-list {
+  color: hsl(14, 45%, 36%);
+}
+
+.content-instructions {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.instructions-list {
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-text {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  /* margin: 0 0 2rem 2rem; */
+}
+
+tbody tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td {
+  text-align: left;
+  padding: 1rem;
+}
+
+.row1 {
+  font-size: 1.25rem;
+  color: hsl(30, 10%, 34%);
+  padding-left: 2rem;
+}
+
+.row2 {
+  font-size: 1.25rem;
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+/* 670px // */
+@media (max-width: 41.88em) {
+  .container {
+    margin: 5rem 2rem;
+  }
+}
+
+@media (max-width: 28.13em) {
+  html {
+    font-size: 60%;
+  }
+
+  .container {
+    margin: 0;
+  }
+
+  .recipe-image {
+    width: calc(
+      100% + 6rem
+    ); /* 100% width + twice the padding to compensate for padding */
+    margin-left: -3rem; /* Negative margin to shift the image to the left, outside the padding */
+    display: block; /* To ensure the image behaves as a block element */
+    margin-top: -3rem;
+  }
+}
