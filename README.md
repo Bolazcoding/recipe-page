@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### The challenge
 
--This project tested my skills in box-model, using margin, padding, media queries to make the card responsive.
+-This project tested my skills in box-model, using margin, padding, media queries to make the recipe page responsive.
 
 ### Screenshot
 
@@ -45,7 +45,7 @@ Second:
 
 ## My process
 
-- I imported a google font family for the card texts
+- I imported a google font family for the recipe page texts
 - I created different container and classes for each content to make it easier to design using css
 - Used \*- universal selector for all html element setting margin, padding to zero and box-sizing to border-box.
 
